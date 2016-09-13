@@ -1,0 +1,27 @@
+variable "project" {}
+variable "environment" {}
+variable "allocated_storage" {}
+variable "engine_version" {}
+variable "instance_type" {}
+variable "storage_type" {}
+variable "vpc_id" {}
+variable "database_identifier" {}
+variable "database_name" {}
+variable "database_password" {}
+variable "database_username" {}
+variable "database_port" {}
+variable "backup_retention_period" {}
+variable "backup_window" {}
+variable "maintenance_window" {}
+variable "auto_minor_version_upgrade" {}
+variable "multi_availability_zone" {}
+variable "storage_encrypted" {}
+variable "subnet_group" {}
+variable "parameter_group" {}
+variable "db_sec_grp" {}
+
+variable "alarm_cpu_threshold" {}
+variable "alarm_disk_queue_threshold" {}
+variable "alarm_free_disk_threshold" {}
+variable "alarm_free_memory_threshold" {}
+variable "alarm_actions" {}
